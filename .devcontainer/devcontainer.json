@@ -1,1 +1,10 @@
-
+{
+  "name": "Sikkens Scan - Power Apps",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "postCreateCommand": "npm install --global @microsoft/power-apps-cli && cd powerapps && npm install",
+  "customizations": {
+    "vscode": {
+      "settings": { "files.autoSave": "afterDelay" }
+    }
+  }
+}
